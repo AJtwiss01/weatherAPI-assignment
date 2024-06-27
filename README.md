@@ -38,3 +38,24 @@ Use the following HTML layout
 </body>
 </html>
 ```
+
+The HTML card needs to have the 
+- City Title 
+- Current Temperature and information 
+- Display the weeks Temperature and and information 
+
+
+# Instructions
+## Fork the Repository:
+
+Go to the repository on GitHub.
+Click on the "Fork" button at the top right of the repository page to create a copy of the repository under your GitHub account.
+Clone the Repository:
+
+Clone the forked repository to your local machine using the following command:
+bash
+Copy code
+```
+git clone https://github.com/your-username/weatherAPI-assignment.git
+cd weatherAPI-assignment
+```
