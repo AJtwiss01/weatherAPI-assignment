@@ -15,3 +15,26 @@ Error Handling: Handle errors gracefully, such as when the API request fails or 
 Prerequisites
 Basic knowledge of HTML, CSS, and JavaScript.
 An API key from the weather service you plan to use (e.g., OpenWeatherMap API key).
+
+Use the following HTML layout 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button id="getWeatherBtn">Get Weather</button>
+    <div class="weather-card" id="weatherCard">
+      <!-- Weather data will be displayed here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+```
